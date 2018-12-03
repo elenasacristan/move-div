@@ -1,0 +1,13 @@
+img {
+    margin:100px;
+    animation:spining 5s infinite linear;
+}
+
+@keyframes spining{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
